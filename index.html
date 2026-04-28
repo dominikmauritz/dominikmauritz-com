@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dominik Mauritz</title>
-    <meta name="description" content="Founder &amp; CEO of vio:networks" />
-    <meta name="color-scheme" content="light only" />
+    <meta name="description" content="Founder of vio:networks" />
+    <meta name="color-scheme" content="dark only" />
     <meta property="og:site_name" content="Dominik Mauritz" />
     <meta property="og:title" content="Dominik Mauritz" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Founder &amp; CEO of vio:networks" />
+    <meta property="og:description" content="Founder of vio:networks" />
     <meta property="og:image" content="https://dominikmauritz.com/card.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:url" content="https://dominikmauritz.com" />
@@ -23,17 +23,18 @@
     />
     <style>
       :root {
-        --page-bg: #eeeeee;
-        --card-bg: #ffffff;
-        --card-border: #e8e8e8;
-        --text: #878787;
-        --link: #711fde;
-        --link-hover: #9095fc;
-        --twitter: #6e73e6;
-        --linkedin: #786ee6;
-        --instagram: #9c6ee6;
-        --button-hover: #9095fc;
-        --shadow: 0 1.75rem 4rem rgba(0, 0, 0, 0.09);
+        --page-bg: #0e0e10;
+        --card-bg: #161618;
+        --card-border: #232327;
+        --text: #9a9aa2;
+        --heading: #f2f2f4;
+        --link: #b69bff;
+        --link-hover: #d6c6ff;
+        --twitter: #2a2a30;
+        --linkedin: #2a2a30;
+        --instagram: #2a2a30;
+        --button-hover: #34343c;
+        --shadow: 0 1.75rem 4rem rgba(0, 0, 0, 0.5);
       }
 
       * {
@@ -91,6 +92,56 @@
         line-height: 1.25;
         font-weight: 300;
         letter-spacing: -0.05rem;
+        color: var(--heading);
+      }
+
+      .location {
+        margin: 0;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+        font-size: 0.875rem;
+        font-weight: 300;
+        letter-spacing: -0.01rem;
+        color: var(--text);
+      }
+
+      .location svg {
+        width: 0.875rem;
+        height: 0.875rem;
+        flex: 0 0 auto;
+        fill: currentColor;
+        opacity: 0.8;
+      }
+
+      .location-aside {
+        opacity: 0.65;
+      }
+
+      .bio {
+        margin: 0;
+        font-size: 0.9375rem;
+        line-height: 1.7;
+        font-weight: 300;
+        letter-spacing: -0.01rem;
+        text-align: center;
+      }
+
+      .bio p {
+        margin: 0;
+      }
+
+      .bio p + p {
+        margin-top: 0.75rem;
+      }
+
+      .bio a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      .bio a:hover {
+        color: var(--link-hover);
       }
 
       .tagline,
@@ -203,16 +254,39 @@
       <header id="home">
         <img class="avatar" src="./avatar.jpg" alt="Portrait of Dominik Mauritz" />
         <h1>Dominik Mauritz</h1>
-        <p class="tagline">
-          Founder of
+        <p class="location">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"
+            />
+          </svg>
+          <span>Planet Earth <span class="location-aside">(for now)</span></span>
+        </p>
+      </header>
+
+      <hr />
+
+      <div class="bio">
+        <p>
+          Founded
           <a
             href="https://www.vionetworks.de"
             target="_blank"
             rel="noreferrer noopener"
             >vio:networks</a
-          >
+          >, built a great team, and later sold the company to
+          <a
+            href="https://www.starface.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            >STARFACE</a
+          > &mdash; now enjoying its growth from the sidelines.
         </p>
-      </header>
+        <p>
+          Currently between Latin America and Asia, exploring new tech and
+          looking for what&rsquo;s next.
+        </p>
+      </div>
 
       <hr />
 
