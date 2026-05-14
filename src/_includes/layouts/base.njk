@@ -28,10 +28,12 @@
       {% if showSiteHeader != false %}
         <header class="site-header">
           <a class="site-brand" href="/">Dominik Mauritz</a>
-          <nav class="site-nav" aria-label="Primary">
-            <a href="/" {% if section == "home" %}aria-current="page"{% endif %}>Home</a>
-            <a href="/blog/" {% if section == "blog" %}aria-current="page"{% endif %}>Blog</a>
-          </nav>
+          {% if showSiteNav != false %}
+            <nav class="site-nav" aria-label="Primary">
+              <a href="/" {% if section == "home" %}aria-current="page"{% endif %}>Home</a>
+              <a href="/blog/" {% if section == "blog" %}aria-current="page"{% endif %}>Blog</a>
+            </nav>
+          {% endif %}
         </header>
       {% endif %}
       <main class="site-main {{ cardClass or '' }}">
