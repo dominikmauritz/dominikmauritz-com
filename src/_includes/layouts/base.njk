@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <link rel="stylesheet" href="/assets/styles.css" />
+    <style>{{ inlineCss | safe }}</style>
   </head>
   <body class="{{ pageClass or 'page-shell' }}">
     <div class="page-frame">
