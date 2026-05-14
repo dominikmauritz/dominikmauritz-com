@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+section: blog
+cardClass: prose-card
+---
+<article class="post">
+  <p class="eyebrow">Blog</p>
+  <h1 class="page-title">{{ title }}</h1>
+  <p class="post-meta">{{ date | readableDate }}</p>
+  {% if excerpt %}
+    <p class="post-dek">{{ excerpt }}</p>
+  {% endif %}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>
+

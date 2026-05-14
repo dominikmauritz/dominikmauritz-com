@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ title }} | {{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ description or site.description }}" />
+    <meta name="color-scheme" content="dark only" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:title" content="{% if page.url == "/" %}{{ site.title }}{% else %}{{ title }} | {{ site.title }}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description or site.description }}" />
+    <meta property="og:image" content="{{ site.url }}/card.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body class="{{ pageClass or 'page-shell' }}">
+    <div class="page-frame">
+      {% if showSiteHeader != false %}
+        <header class="site-header">
+          <a class="site-brand" href="/">Dominik Mauritz</a>
+          <nav class="site-nav" aria-label="Primary">
+            <a href="/" {% if section == "home" %}aria-current="page"{% endif %}>Home</a>
+            <a href="/blog/" {% if section == "blog" %}aria-current="page"{% endif %}>Blog</a>
+          </nav>
+        </header>
+      {% endif %}
+      <main class="site-card {{ cardClass or '' }}">
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
+</html>
+

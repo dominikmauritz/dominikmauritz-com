@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: Blog
+description: Notes and writing from Dominik Mauritz
+permalink: /blog/
+section: blog
+cardClass: index-card
+---
+<section class="section-intro">
+  <p class="eyebrow">Blog</p>
+  <h1 class="page-title">Simple notes, written without turning the site into a whole app.</h1>
+  <p class="lede">
+    The blog is generated from Markdown with Eleventy and keeps the same minimal,
+    dark-only feel as the homepage.
+  </p>
+</section>
+
+{% set posts = collections.blog | reverse %}
+{% if posts | length %}
+  <ol class="post-list">
+    {% for post in posts %}
+      <li>
+        <article class="post-preview">
+          <p class="post-preview__meta">{{ post.date | readableDate }}</p>
+          <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+          {% if post.data.excerpt %}
+            <p class="post-preview__excerpt">{{ post.data.excerpt }}</p>
+          {% endif %}
+        </article>
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p class="empty-state">No posts yet, but the plumbing is in place.</p>
+{% endif %}
+
