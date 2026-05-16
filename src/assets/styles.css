@@ -98,6 +98,10 @@ a:hover {
   width: 100%;
 }
 
+.prose-page {
+  padding-top: 1.35rem;
+}
+
 .profile {
   display: grid;
   justify-items: center;
