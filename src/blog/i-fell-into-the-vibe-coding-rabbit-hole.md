@@ -26,7 +26,7 @@ I mostly wanted to understand whether the current wave of AI coding tools was su
 
 The result honestly blew my mind.
 
-## Background: I've spent almost two decades around software, mostly without writing it
+## Background: I’ve spent most of my professional life around software — mostly without writing it
 
 For over a decade I ran a software company called [vio:networks](https://www.vionetworks.de). I've seen the old world of building products:
 
@@ -81,7 +81,7 @@ The surprising part was not only that AI generated code. That alone would alread
 
 That felt new.
 
-![Claude Code helping build FlowShift.](/assets/blog/claude-code.jpg)
+![Claude Code helping build FlowShift.](/assets/blog/claude-code.png)
 
 ## Seven days later there was an actual app
 
@@ -108,7 +108,7 @@ That surprised me more than anything. The original goal was experimentation. Som
 There's a realistic chance getting the app through Apple and Google approval processes will take longer than building version 1.0. I am not even saying that ironically.
 
 <div class="article-image article-image--phone">
-  <img src="/assets/blog/hero-flowshift-phone.jpg" alt="FlowShift mobile app screen.">
+  <img src="/assets/blog/hero-flowshift-phone.png" alt="FlowShift mobile app screen.">
 </div>
 
 ## Then I built the website
@@ -125,7 +125,7 @@ Again: mind blowing.
 
 The result is here: [FlowShift](https://flowshift.fm)
 
-![Codex helping build the FlowShift website.](/assets/blog/codex.jpg)
+![Codex helping build the FlowShift website.](/assets/blog/codex.png)
 
 ## The strangest realization
 
