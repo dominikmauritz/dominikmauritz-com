@@ -26,7 +26,38 @@ I mostly wanted to understand whether the current wave of AI coding tools was su
 
 The result honestly blew my mind.
 
-## Background: I’ve spent most of my professional life around software — mostly without writing it
+<div class="build-timeline" aria-label="Seven day build timeline">
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 1</span>
+    <span class="build-timeline__text">Idea, scope and tooling</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 2</span>
+    <span class="build-timeline__text">First working prototype</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 3</span>
+    <span class="build-timeline__text">Authentication, playback and app logic</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 4</span>
+    <span class="build-timeline__text">AI music generation</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 5</span>
+    <span class="build-timeline__text">Bug fixes and polishing</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 6</span>
+    <span class="build-timeline__text">Website + waitlist</span>
+  </div>
+  <div class="build-timeline__item">
+    <span class="build-timeline__day">Day 7</span>
+    <span class="build-timeline__text">First users and feedback</span>
+  </div>
+</div>
+
+## Background: I’ve spent most of my professional life around software - mostly without writing it
 
 For over a decade I ran a software company called [vio:networks](https://www.vionetworks.de). I've seen the old world of building products:
 

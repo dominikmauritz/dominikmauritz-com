@@ -335,6 +335,47 @@ a:hover {
   margin-right: auto;
 }
 
+.build-timeline {
+  margin: 1.8rem 0 2.4rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--line);
+  display: grid;
+  gap: 0.85rem;
+}
+
+.build-timeline__item {
+  display: grid;
+  gap: 0.12rem;
+  position: relative;
+}
+
+.build-timeline__item::before {
+  content: "";
+  position: absolute;
+  left: -1.31rem;
+  top: 0.72rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--text);
+  box-shadow: 0 0 0 0.22rem var(--page-bg);
+}
+
+.build-timeline__day {
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.build-timeline__text {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+  letter-spacing: -0.01rem;
+}
+
 .prose h2,
 .prose h3 {
   margin: 2.6rem 0 0.9rem;
