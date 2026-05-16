@@ -27,7 +27,8 @@ body {
     var(--page-bg);
   color: var(--muted);
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -65,6 +66,7 @@ a:hover {
   text-decoration: none;
   font-size: 0.95rem;
   letter-spacing: 0.04em;
+  font-weight: 500;
 }
 
 .site-nav {
@@ -113,31 +115,30 @@ a:hover {
 
 .page-title {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 2.7rem);
-  line-height: 1.08;
-  font-weight: 300;
-  letter-spacing: -0.06rem;
+  font-size: clamp(2.3rem, 5vw, 3.65rem);
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
   color: var(--text);
 }
 
 .page-title-home {
-  font-size: clamp(1.7rem, 3vw, 2.15rem);
-  letter-spacing: -0.045rem;
+  font-size: clamp(1.95rem, 3vw, 2.5rem);
+  letter-spacing: -0.04rem;
 }
 
 .location,
 .bio,
 .lede,
 .post-meta,
-.post-dek,
 .post-preview__meta,
 .post-preview__excerpt,
 .empty-state {
   margin: 0;
   color: var(--muted);
-  font-size: 1.04rem;
-  line-height: 1.85;
-  font-weight: 300;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  font-weight: 400;
   letter-spacing: -0.01rem;
 }
 
@@ -191,6 +192,7 @@ a:hover {
 }
 
 .bio {
+  max-width: 34rem;
   text-align: center;
 }
 
@@ -281,11 +283,16 @@ a:hover {
 }
 
 .post-meta {
-  margin-top: -0.2rem;
+  margin-top: 0.1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .prose {
   color: var(--muted);
+  margin-top: 2.6rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
 }
 
 .prose p,
@@ -293,28 +300,28 @@ a:hover {
 .prose ol,
 .prose blockquote {
   margin: 0 0 1.1rem;
-  font-size: 1.04rem;
-  line-height: 1.85;
+  font-size: 1.08rem;
+  line-height: 1.9;
   color: var(--muted);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: -0.01rem;
 }
 
 .prose h2,
 .prose h3 {
-  margin: 2rem 0 0.75rem;
+  margin: 2.6rem 0 0.9rem;
   color: var(--text);
   letter-spacing: -0.04rem;
 }
 
 .prose h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .prose h3 {
-  font-size: 1.15rem;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .prose ul,
