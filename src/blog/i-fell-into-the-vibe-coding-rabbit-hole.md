@@ -107,7 +107,9 @@ That surprised me more than anything. The original goal was experimentation. Som
 
 There's a realistic chance getting the app through Apple and Google approval processes will take longer than building version 1.0. I am not even saying that ironically.
 
-![FlowShift mobile app screen.](/assets/blog/hero-flowshift-phone.jpg)
+<div class="article-image article-image--phone">
+  <img src="/assets/blog/hero-flowshift-phone.jpg" alt="FlowShift mobile app screen.">
+</div>
 
 ## Then I built the website
 
