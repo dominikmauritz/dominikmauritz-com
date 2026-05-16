@@ -7,10 +7,7 @@ showSiteNav: false
 <article class="post">
   <h1 class="page-title">{{ title }}</h1>
   <p class="post-meta">{{ date | readableDate }}</p>
-  {% if excerpt %}
-    <p class="post-dek">{{ excerpt }}</p>
-  {% endif %}
   <div class="prose">
-    {{ content | safe }}
+    {{ content | replace('<a href="http', '<a target="_blank" rel="noreferrer noopener" href="http') | safe }}
   </div>
 </article>
