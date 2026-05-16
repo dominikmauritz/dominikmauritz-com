@@ -311,6 +311,16 @@ a:hover {
   letter-spacing: -0.01rem;
 }
 
+.prose img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 2rem 0 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+}
+
 .prose h2,
 .prose h3 {
   margin: 2.6rem 0 0.9rem;

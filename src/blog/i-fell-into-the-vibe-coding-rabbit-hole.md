@@ -81,6 +81,8 @@ The surprising part was not only that AI generated code. That alone would alread
 
 That felt new.
 
+![Claude Code helping build FlowShift.](/assets/blog/claude-code.jpg)
+
 ## Seven days later there was an actual app
 
 The experiment became more serious than expected. Instead of proving that vibe coding was overhyped, I ended up with something I wanted to keep building.
@@ -103,6 +105,10 @@ This is actually good enough that I want to publish it.
 
 That surprised me more than anything. The original goal was experimentation. Somewhere along the way it became a product.
 
+There's a realistic chance getting the app through Apple and Google approval processes will take longer than building version 1.0. I am not even saying that ironically.
+
+![FlowShift mobile app screen.](/assets/blog/hero-flowshift-phone.jpg)
+
 ## Then I built the website
 
 After deciding FlowShift might become real, I needed a website. Again I let Claude Code and Codex create initial versions. This time the opposite happened:
@@ -117,7 +123,7 @@ Again: mind blowing.
 
 The result is here: [FlowShift](https://flowshift.fm)
 
-There's a realistic chance getting the app through Apple and Google approval processes will take longer than building version 1.0. I am not even saying that ironically.
+![Codex helping build the FlowShift website.](/assets/blog/codex.jpg)
 
 ## The strangest realization
 
