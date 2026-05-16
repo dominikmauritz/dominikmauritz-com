@@ -28,7 +28,7 @@ The result honestly blew my mind.
 
 ## Background: I've spent almost two decades around software, mostly without writing it
 
-For roughly 18 years I ran a software company called [vio:networks](https://www.vionetworks.de). I've seen the old world of building products:
+For over a decade I ran a software company called [vio:networks](https://www.vionetworks.de). I've seen the old world of building products:
 
 Specifications. Backlogs. External agencies. Developer hiring. Long timelines. Unexpected invoices.
 
