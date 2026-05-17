@@ -93,6 +93,10 @@ a:hover {
   width: 100%;
 }
 
+.error-page {
+  width: 100%;
+}
+
 .index-page,
 .prose-page {
   width: 100%;
@@ -129,6 +133,123 @@ a:hover {
 .page-title-home {
   font-size: clamp(1.95rem, 3vw, 2.5rem);
   letter-spacing: -0.04rem;
+}
+
+.page-404 .page-frame {
+  min-height: 100vh;
+  width: min(100%, 38rem);
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem 3rem;
+}
+
+.error-shell {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.error-code {
+  margin: 0;
+  color: var(--soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.28rem;
+  text-transform: uppercase;
+}
+
+.error-orbit {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  margin: 1.15rem 0 1.5rem;
+}
+
+.error-orbit__ring,
+.error-orbit__dot {
+  position: absolute;
+  inset: 0;
+}
+
+.error-orbit__ring {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.055), transparent 62%),
+    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.08), transparent 18%);
+}
+
+.error-orbit__dot::before {
+  content: "";
+  position: absolute;
+  top: -0.16rem;
+  left: 50%;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-left: -0.275rem;
+  border-radius: 50%;
+  background: var(--text);
+  box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.2);
+}
+
+.error-orbit__dot {
+  animation: orbit-spin 12s linear infinite;
+}
+
+.error-title {
+  margin: 0;
+  max-width: 15ch;
+  color: var(--text);
+  font-size: clamp(2.2rem, 7vw, 3.9rem);
+  line-height: 0.98;
+  font-weight: 600;
+  letter-spacing: -0.06rem;
+}
+
+.error-copy {
+  margin: 1rem 0 0;
+  max-width: 32rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.85;
+  letter-spacing: -0.01rem;
+}
+
+.error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-top: 1.8rem;
+}
+
+.error-link {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.96rem;
+  line-height: 1;
+  padding: 0.9rem 1.15rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.error-link:hover {
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-1px);
+}
+
+.error-link--primary {
+  color: var(--text);
 }
 
 .location,
@@ -436,10 +557,39 @@ a:hover {
   .site-nav {
     gap: 1rem;
   }
+
+  .page-404 .page-frame {
+    padding: 1.5rem 0.75rem 2.5rem;
+  }
+
+  .error-orbit {
+    width: 8.4rem;
+    height: 8.4rem;
+    margin: 1rem 0 1.3rem;
+  }
+
+  .error-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .error-link {
+    width: 100%;
+  }
 }
 
 @media (max-width: 380px) {
   .page-title-home {
     font-size: 1.55rem;
+  }
+}
+
+@keyframes orbit-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
