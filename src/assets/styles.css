@@ -58,7 +58,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.6rem;
 }
 
 .site-brand {
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .prose-page {
-  padding-top: 1.35rem;
+  padding-top: 0;
 }
 
 .profile {
