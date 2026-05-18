@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: I fell into the vibe coding rabbit hole. 7 days later I had a working app.
 description: A week-long experiment with AI coding tools turned into a real product and a very different view of how software may be built.
 excerpt: A week of vibe coding turned into a working app, a website, testers, and a much bigger shift in perspective than expected.
-date: 2026-05-16
+date: 2026-05-19
 tags:
   - blog
 ---
@@ -80,7 +80,7 @@ I did not want:
 - an app showing static content
 - a to-do list clone
 
-I wanted something with enough complexity that failure seemed realistic. The experiment eventually became FlowShift, a focus music app. I picked the idea partly because music apps are deceptively complicated:
+I wanted something with enough complexity that failure seemed realistic. The experiment eventually became FlowShift, a focus music app. I picked the idea partly because music apps are deceptively complicated, and partly because music has always been one of the things I care about most:
 
 Playlists, streaming, playback controls, background audio, session logic, authentication, state management, mobile UX.
 
