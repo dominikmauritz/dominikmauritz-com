@@ -7,6 +7,12 @@ date: 2026-05-19
 tags:
   - blog
 ---
+<aside class="editor-note" aria-label="Editor's note">
+  <p>
+    <strong>Editor’s note:</strong> I spent most of my professional life around software without being a strong developer myself. This started as an experiment to see how far AI coding tools could take me. Seven days later I had a working app - and a product I decided to launch: <a href="https://flowshift.fm">FlowShift</a>.
+  </p>
+</aside>
+
 A few months ago, if someone had told me they built a mobile app in a week mostly by talking to AI, I probably would have assumed there was a catch.
 
 Either the app was not very real, or "built" meant changing a few colors in a template. Then I accidentally tested the idea myself.

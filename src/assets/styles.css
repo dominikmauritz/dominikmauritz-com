@@ -518,6 +518,30 @@ a:hover {
   margin-right: auto;
 }
 
+.editor-note {
+  margin: 0 0 2rem;
+  padding: 1.1rem 0 1.15rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.editor-note p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.75;
+  letter-spacing: -0.01rem;
+}
+
+.editor-note strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.editor-note a {
+  text-decoration: none;
+}
+
 .build-timeline {
   margin: 1.8rem 0 2.4rem;
   padding-left: 1rem;
