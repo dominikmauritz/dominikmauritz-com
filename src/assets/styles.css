@@ -519,8 +519,8 @@ a:hover {
 }
 
 .editor-note {
-  margin: 1.4rem 0;
-  padding: 0 0 1.4rem;
+  margin: 0 0 1.4rem;
+  padding: 1.4rem 0;
   border-bottom: 1px solid var(--line);
 }
 
