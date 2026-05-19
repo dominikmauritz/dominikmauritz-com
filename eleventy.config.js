@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
     }).format(value);
   });
 
+  eleventyConfig.addFilter("isoDate", (value) => {
+    return new Date(value).toISOString();
+  });
+
   eleventyConfig.addFilter("encodeURIComponent", (value) => {
     return encodeURIComponent(value);
   });
