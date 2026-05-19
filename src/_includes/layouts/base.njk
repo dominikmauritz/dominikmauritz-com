@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% set socialImage = site.url + "/card.jpg?v=20260519" %}
+    {% set socialImage = site.url + "/card-social-20260519.jpg" %}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ title }} | {{ site.title }}{% endif %}</title>
@@ -12,6 +12,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ description or site.description }}" />
     <meta property="og:image" content="{{ socialImage }}" />
+    <meta property="og:image:secure_url" content="{{ socialImage }}" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="800" />

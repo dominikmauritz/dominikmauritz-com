@@ -2,6 +2,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy("avatar.jpg");
   eleventyConfig.addPassthroughCopy("card.jpg");
+  eleventyConfig.addPassthroughCopy("card-social-20260519.jpg");
   eleventyConfig.addPassthroughCopy("CNAME");
 
   eleventyConfig.addFilter("readableDate", (value) => {
