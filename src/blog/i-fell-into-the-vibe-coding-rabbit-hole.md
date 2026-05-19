@@ -7,9 +7,9 @@ date: 2026-05-19
 tags:
   - blog
 ---
-<aside class="editor-note" aria-label="Editor's note">
+<aside class="editor-note" aria-label="TLDR">
   <p>
-    <strong>Editor’s note:</strong> I spent most of my professional life around software without being a strong developer myself. This started as an experiment to see how far AI coding tools could take me. Seven days later I had a working app - and a product I decided to launch: <a href="https://flowshift.fm">FlowShift</a>.
+    <strong>TLDR:</strong> I spent most of my professional life around software without being a strong developer myself. This started as an experiment to see how far AI coding tools could take me. Seven days later I had a working app: <a href="https://flowshift.fm">FlowShift</a>.
   </p>
 </aside>
 
