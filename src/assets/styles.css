@@ -413,6 +413,68 @@ a:hover {
   line-height: 1.6;
 }
 
+.post-share {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.4rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+
+.post-share__label {
+  margin: 0;
+  color: var(--soft);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+.post-share__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-share__links a,
+.post-share__copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  color: #d1d1d7;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.post-share__links a:hover,
+.post-share__copy:hover {
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.post-share__links svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: currentColor;
+}
+
+.post-share__status {
+  min-height: 1.2rem;
+  margin: 0 0 0 auto;
+  color: var(--soft);
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
 .prose {
   color: var(--muted);
   margin-top: 2.6rem;

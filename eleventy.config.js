@@ -12,6 +12,10 @@ module.exports = function (eleventyConfig) {
     }).format(value);
   });
 
+  eleventyConfig.addFilter("encodeURIComponent", (value) => {
+    return encodeURIComponent(value);
+  });
+
   return {
     dir: {
       input: "src",
@@ -23,4 +27,3 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk"
   };
 };
-
