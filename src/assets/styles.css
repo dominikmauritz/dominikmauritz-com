@@ -394,6 +394,10 @@ a:hover {
   gap: 1rem;
 }
 
+.post > .page-title {
+  line-height: 1.08;
+}
+
 .post-list-home {
   gap: 0;
 }
